@@ -9,6 +9,8 @@
 import UIKit
 
 class TodoTableViewController: UITableViewController {
+    
+    var todos: [Todo] = []
 
     override func viewDidLoad() {
         super.viewDidLoad()
